@@ -25,7 +25,7 @@ This is a full-stack web application for calculating z-scores, built with a mode
 - **ORM**: Drizzle ORM for type-safe database operations
 - **Schema**: Centralized schema definition in `shared/schema.ts`
 - **Migrations**: Drizzle Kit for database migrations
-- **Development Storage**: In-memory storage implementation for development
+- **Storage**: DatabaseStorage implementation for persistent data
 
 ## Key Components
 
@@ -99,6 +99,7 @@ This is a full-stack web application for calculating z-scores, built with a mode
 Changelog:
 - June 27, 2025. Initial setup
 - June 27, 2025. Updated interpretation text to be statistically neutral - z-scores measure distance from mean, not performance
+- June 27, 2025. Added PostgreSQL database with Drizzle ORM - replaced in-memory storage with persistent DatabaseStorage
 ```
 
 ## User Preferences
