@@ -372,8 +372,8 @@ export default function Home() {
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">How to Interpret</h4>
                 <p>
-                  Positive z-scores indicate above-average performance, while negative z-scores indicate 
-                  below-average performance. The larger the absolute value, the more extreme the result.
+                  Positive z-scores indicate values above the mean, while negative z-scores indicate 
+                  values below the mean. The larger the absolute value, the further the data point is from the mean.
                 </p>
               </div>
             </div>

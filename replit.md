@@ -98,6 +98,7 @@ This is a full-stack web application for calculating z-scores, built with a mode
 ```
 Changelog:
 - June 27, 2025. Initial setup
+- June 27, 2025. Updated interpretation text to be statistically neutral - z-scores measure distance from mean, not performance
 ```
 
 ## User Preferences
